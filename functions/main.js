@@ -8,9 +8,18 @@ function getSolutions(a,b,c) {
         console.log ("roots: ", [x1], "D: ", D);
     }
     else {
+        let k = Math.sqrt(D);
         let x1 = (-b + k)/2;
         let x2 = (-b - k)/2;
          console.log ("roots: ", [x1, x2], "D: " + D);
     }
 }
 getSolutions (2,4,2);
+
+function showSolutionsMessage (a,b,c) {
+    let result = this.getSolutions(a,b,c);
+    console.log("Значение дискриминанта: " + result);
+
+}
+showSolutionsMessage();
+
