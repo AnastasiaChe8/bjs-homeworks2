@@ -31,7 +31,7 @@ function showSolutionsMessage (a,b,c) {
       console.log (`Уравнение имеет два корня. X₁ = ${result.roots[0]}, X₂ = ${result.roots[1]}`)
     }
     else {
-<<<<<<< HEAD
+
         let k = Math.sqrt(D);
         let x1 = (-b + k)/2;
         let x2 = (-b - k)/2;
@@ -47,7 +47,7 @@ function showSolutionsMessage (a,b,c) {
 }
 showSolutionsMessage();
 
-=======
+
       console.log("Уравнение не имеет вещественных корней");
     }
 }
